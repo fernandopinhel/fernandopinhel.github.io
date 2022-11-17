@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9=swap");
+html, body {
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+
+h5 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+
+h6 {
+  color: #2B27B8;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  color: #272727;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+.img-estilo {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  box-shadow: 10px 10px 68px -24px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 10px 10px 68px -24px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 10px 10px 68px -24px rgba(0, 0, 0, 0.42);
+}
+/*# sourceMappingURL=estilo.css.map */

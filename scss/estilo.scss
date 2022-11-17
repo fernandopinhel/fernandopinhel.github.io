@@ -1,0 +1,90 @@
+//Fontes
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9=swap');
+$fonte: 'Noto Sans', sans-serif;
+$fina: 100;
+$regular:400;
+$semi-grossa:500;
+$grossa:600;
+
+// Cores
+$primaria:#2B27B8;
+$primaria-escura:#1D1A7C;
+$primaria-clara:#5C57F6;
+
+$secundaria:#7500B8;
+$secundaria-escura:#3E0062;
+$secundaria-clara:#A101FC;
+
+$terciaria:#0057FA;
+$terciaria-escura:#002F88;
+$terciaria-clara:#5B94FF;
+
+$neutro-preto:#000000;
+$neutro-preto-15:#272727;
+$neutro-preto-50:#808080;
+$neutro-preto-80:#CCC9C9;
+$neutro-branco:#ffffff;
+
+$superficie:#F3F2EF;
+$fundo:#FFFFFF;
+
+$acoes-sucesso:#00CE6B;
+$acoes-informacao:#00B0FB;
+$acoes-alerta:#FF9F0F;
+$acoes-erro:#FF0F49;
+
+// Estilos
+html, body{
+    background-color: $fundo;
+}
+
+h1{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $grossa;
+}
+
+h2{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $grossa;
+}
+
+h3{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $semi-grossa;
+}
+
+h4{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $semi-grossa;
+}
+
+h5{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $semi-grossa;
+}
+
+h6{
+    color: $primaria;
+    font-family: $fonte;
+    font-weight: $semi-grossa;
+}
+
+p{
+    color: $neutro-preto-15;
+    font-family: $fonte;
+    font-weight: $regular;
+}
+
+.img-estilo{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    box-shadow: 10px 10px 68px -24px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 10px 68px -24px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 10px 68px -24px rgba(0,0,0,0.42);
+}
