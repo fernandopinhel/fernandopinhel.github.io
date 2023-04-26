@@ -142,7 +142,7 @@ ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li >
   }
   .navbar-collapse.show {
     position: fixed;
-    top: 56px;
+    top: 76px;
     right: 0;
     height: 100%;
     width: 250px;
@@ -155,6 +155,12 @@ ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li >
     z-index: 2;
     overflow: hidden;
     padding: 0 30px;
+  }
+  ul.navbar-nav {
+    margin-top: 24px;
+  }
+  ul.navbar-nav > li {
+    padding: 8px;
   }
 }
 .logo-footer {
@@ -211,6 +217,18 @@ footer > div > div > div > h6 {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 991px) {
+  .contato {
+    text-align: center;
+    font-size: 24px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+  .ir-para-topo {
+    font-size: 20px;
+  }
+}
 html, body {
   font-family: "Noto Sans", sans-serif;
   background-color: #FFFFFF;
