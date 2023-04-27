@@ -284,13 +284,13 @@ h4{
 }
 
 h5{
-    color: $neutro-preto-15;
+    color: $terciaria-escura;
     font-family: $fonte;
     font-weight: $semi-grossa;
 }
 
 h6{
-    color: $neutro-preto-15;
+    color: $terciaria;
     font-family: $fonte;
     font-weight: $semi-grossa;
 }
@@ -299,6 +299,7 @@ p{
     color: $neutro-preto-15;
     font-family: $fonte;
     font-weight: $regular;
+    font-size: 16px;
 }
 
 .efeito{
