@@ -226,6 +226,30 @@ footer > div > div > div > h6 {
     font-size: 20px;
   }
 }
+.cookies {
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+}
+
+.cookies p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.cookies p > a {
+  color: #ffffff;
+}
+
+.cookies.is-open {
+  display: block;
+}
+
 html, body {
   font-family: "Noto Sans", sans-serif;
   background-color: #FFFFFF;
