@@ -51,6 +51,18 @@ $transitionEaseAll: ease all 0.4s;
     border-color: $primaria-clara;
 }
 
+.btn-primary:focus{
+    background-color: $primaria-clara;
+    color: $neutro-branco !important;
+    border-color: $primaria-clara;
+}
+
+.btn-primary:active{
+    background-color: $primaria-clara;
+    color: $neutro-branco !important;
+    border-color: $primaria-clara;
+}
+
 .btn-secondary{    
     background-color: $primaria;
     color: $neutro-branco;
@@ -63,8 +75,22 @@ $transitionEaseAll: ease all 0.4s;
     border-color: $primaria-clara;
 }
 
-a{color: $primaria-escura;}
-a:hover{color: $primaria-clara;}
+.btn-secondary:focus{
+    background-color: $primaria-clara;
+    color: $neutro-branco !important;
+    border-color: $primaria-clara;
+}
+
+.btn-secondary:active{
+    background-color: $primaria-clara;
+    color: $neutro-branco !important;
+    border-color: $primaria-clara;
+}
+
+
+a{color: $primaria-escura}
+a:hover{color: $primaria-clara}
+a:focus{color: $primaria-clara}
 
 // Header > Menu
 header{background: $primaria;}

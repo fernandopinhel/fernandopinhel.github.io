@@ -20,6 +20,18 @@ $primaria-clara:#5B94FF;
   border-color: #383838;
 }
 
+.btn-primary:focus {
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
+}
+
+.btn-primary:active {
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
+}
+
 .btn-secondary {
   background-color: #090909;
   color: #ffffff;
@@ -32,11 +44,27 @@ $primaria-clara:#5B94FF;
   border-color: #383838;
 }
 
+.btn-secondary:focus {
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
+}
+
+.btn-secondary:active {
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
+}
+
 a {
   color: #000;
 }
 
 a:hover {
+  color: #383838;
+}
+
+a:focus {
   color: #383838;
 }
 
