@@ -1,34 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9=swap");
+/*
+$primaria:#7500B8;
+$primaria-escura:#3E0062;
+$primaria-clara:#A101FC;
+
+$primaria:#0057FA;
+$primaria-escura:#002F88;
+$primaria-clara:#5B94FF;
+*/
 .btn-primary {
   background-color: transparent;
-  color: #2B27B8;
-  border-color: #2B27B8;
+  color: #090909;
+  border-color: #090909;
 }
 
 .btn-primary:hover {
-  background-color: #5C57F6;
-  color: #ffffff;
-  border-color: #5C57F6;
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
 }
 
 .btn-secondary {
-  background-color: #7500B8;
+  background-color: #090909;
   color: #ffffff;
-  border-color: #7500B8;
+  border-color: #090909;
 }
 
 .btn-secondary:hover {
-  background-color: #A101FC;
-  color: #ffffff;
-  border-color: #A101FC;
+  background-color: #383838;
+  color: #ffffff !important;
+  border-color: #383838;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #383838;
 }
 
 header {
-  background: #0057FA;
+  background: #090909;
 }
 
 nav {
-  background-color: #5C57F6;
+  background-color: #090909;
 }
 
 .logo-header {
@@ -43,9 +60,9 @@ nav {
 
 .logo-header:hover {
   transition: ease all 0.4s;
-  color: #5B94FF;
-  border: 1px solid #5B94FF;
-  background-color: #002F88;
+  color: #383838;
+  border: 1px solid #383838;
+  background-color: #000;
 }
 
 ul.navbar-nav {
@@ -62,7 +79,7 @@ ul.navbar-nav > li > a {
 }
 
 ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li > a.active {
-  color: #1D1A7C;
+  color: #CCC9C9;
   transition: ease all 0.4s;
 }
 
@@ -147,7 +164,7 @@ ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li >
     height: 100%;
     width: 250px;
     text-align: right;
-    background: #1D1A7C;
+    background: #000;
     display: block !important;
     opacity: 1;
     transition: all 0.5s;
@@ -178,13 +195,13 @@ ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li >
 
 .logo-footer:hover {
   transition: ease all 0.4s;
-  color: #5B94FF;
-  border: 1px solid #5B94FF;
-  background-color: #002F88;
+  color: #383838;
+  border: 1px solid #383838;
+  background-color: #000;
 }
 
 footer {
-  background-color: #5C57F6;
+  background-color: #383838;
   color: #ffffff;
   padding: 16px 0;
 }
@@ -201,7 +218,7 @@ footer > div > div > div > h6 {
 
 .contato > ul > li > a:hover {
   transition: ease all 0.4s;
-  color: #002F88;
+  color: #000;
 }
 
 .copyright {
@@ -209,7 +226,7 @@ footer > div > div > div > h6 {
   color: #ffffff;
   margin: 0;
   padding: 8px 0;
-  background-color: #1D1A7C;
+  background-color: #000;
 }
 
 .ir-para-topo {
@@ -257,13 +274,13 @@ html, body {
 }
 
 h1 {
-  color: #2B27B8;
+  color: #090909;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
 }
 
 h2 {
-  color: #5C57F6;
+  color: #383838;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
 }
@@ -287,7 +304,7 @@ h5 {
 }
 
 h6 {
-  color: #0057FA;
+  color: #090909;
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
 }
@@ -306,7 +323,7 @@ p {
 .efeito > span {
   position: absolute;
   z-index: 0;
-  border-bottom: 10px solid #5C57F6;
+  border-bottom: 10px solid #383838;
   top: 35px;
   opacity: 0.5;
   border-top-left-radius: 100px;
@@ -343,7 +360,7 @@ section {
 }
 
 #projetos {
-  background-color: #002F88;
+  background-color: #090909;
 }
 
 .img-estilo {
@@ -356,9 +373,9 @@ section {
 }
 
 .img-sobre {
-  background-image: url("../images/sobre-1.png");
-  width: 355px;
-  height: 386px;
+  background-image: url("../images/sobre-2023-1.png");
+  width: 455px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   transition: ease all 0.4s;
@@ -367,7 +384,7 @@ section {
 }
 
 .img-sobre:hover {
-  background-image: url("../images/sobre-2.png");
+  background-image: url("../images/sobre-2023-2.png");
   width: 355px;
   height: 386px;
   background-repeat: no-repeat;

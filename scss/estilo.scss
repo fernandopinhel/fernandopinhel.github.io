@@ -7,17 +7,19 @@ $semi-grossa:500;
 $grossa:600;
 
 // Cores
-$primaria:#2B27B8;
-$primaria-escura:#1D1A7C;
-$primaria-clara:#5C57F6;
+$primaria:#090909;
+$primaria-escura:#000;
+$primaria-clara:#383838;
 
-$secundaria:#7500B8;
-$secundaria-escura:#3E0062;
-$secundaria-clara:#A101FC;
+/*
+$primaria:#7500B8;
+$primaria-escura:#3E0062;
+$primaria-clara:#A101FC;
 
-$terciaria:#0057FA;
-$terciaria-escura:#002F88;
-$terciaria-clara:#5B94FF;
+$primaria:#0057FA;
+$primaria-escura:#002F88;
+$primaria-clara:#5B94FF;
+*/
 
 $neutro-preto:#000000;
 $neutro-preto-15:#272727;
@@ -45,26 +47,29 @@ $transitionEaseAll: ease all 0.4s;
 
 .btn-primary:hover{
     background-color: $primaria-clara;
-    color: $neutro-branco;
+    color: $neutro-branco !important;
     border-color: $primaria-clara;
 }
 
 .btn-secondary{    
-    background-color: $secundaria;
+    background-color: $primaria;
     color: $neutro-branco;
-    border-color: $secundaria;
+    border-color: $primaria;
 }
 
 .btn-secondary:hover{
-    background-color: $secundaria-clara;
-    color: $neutro-branco;
-    border-color: $secundaria-clara;
+    background-color: $primaria-clara;
+    color: $neutro-branco !important;
+    border-color: $primaria-clara;
 }
 
-// Header > Menu
-header{background: $terciaria;}
+a{color: $primaria-escura;}
+a:hover{color: $primaria-clara;}
 
-nav{background-color: $primaria-clara;}
+// Header > Menu
+header{background: $primaria;}
+
+nav{background-color: $primaria;}
 
 .logo-header{
     font-size: 28px;
@@ -78,9 +83,9 @@ nav{background-color: $primaria-clara;}
 
 .logo-header:hover{
     transition: $transitionEaseAll;
-    color: $terciaria-clara;
-    border: 1px solid $terciaria-clara;
-    background-color: $terciaria-escura;
+    color: $primaria-clara;
+    border: 1px solid $primaria-clara;
+    background-color: $primaria-escura;
 }
 
 ul.navbar-nav{
@@ -97,7 +102,7 @@ ul.navbar-nav > li > a{
 }
 
 ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li > a.active{
-    color: $primaria-escura;
+    color: $neutro-preto-80;
     transition: $transitionEaseAll;
 }
 
@@ -206,9 +211,9 @@ ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus, ul.navbar-nav > li >
 
 .logo-footer:hover{
     transition: $transitionEaseAll;
-    color: $terciaria-clara;
-    border: 1px solid $terciaria-clara;
-    background-color: $terciaria-escura;
+    color: $primaria-clara;
+    border: 1px solid $primaria-clara;
+    background-color: $primaria-escura;
 }
 
 footer{
@@ -227,7 +232,7 @@ footer > div > div > div > h6{color: $neutro-branco;}
 
 .contato > ul > li > a:hover{
     transition: $transitionEaseAll;
-    color: $terciaria-escura;
+    color: $primaria-escura;
 }
 
 .copyright{
@@ -312,7 +317,7 @@ h5{
 }
 
 h6{
-    color: $terciaria;
+    color: $primaria;
     font-family: $fonte;
     font-weight: $semi-grossa;
 }
@@ -369,7 +374,7 @@ section{
 }
 
 #projetos{
-    background-color: $terciaria-escura;
+    background-color: $primaria;
 }
 
 .img-estilo{
@@ -382,9 +387,9 @@ section{
 }
 
 .img-sobre{
-    background-image: url("../images/sobre-1.png");
-    width: 355px;
-    height: 386px;
+    background-image: url("../images/sobre-2023-1.png");
+    width: 455px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     transition: $transitionEaseAll;
@@ -393,7 +398,7 @@ section{
 }
 
 .img-sobre:hover{
-    background-image: url("../images/sobre-2.png");
+    background-image: url("../images/sobre-2023-2.png");
     width: 355px;
     height: 386px;
     background-repeat: no-repeat;
